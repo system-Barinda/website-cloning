@@ -13,7 +13,7 @@ body {
 width: 100%;
 background: white; 
 height: 600px;
-padding: 10px;
+padding: 2px;
 overflow-y: scroll;
 
   
@@ -34,17 +34,17 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    position: sticky ;
     top: 0;
+    position:sticky;
+    height: 60px;
+    background-image: url("../images/footer-bg.jpeg");
 
    
 }
 
-.logo {
+.logo img {
     font-size: 24px;
     font-weight: bold;
-    margin-top: 100px;
 }
 
 nav ul {
@@ -420,4 +420,197 @@ display: flex;
     font-size: 14px;
     font-weight: bold;
     margin-top: 20px;
+}
+/* all about of top categories */
+.categories-container
+{
+  width: 95%;
+  height: 450px;
+  padding: 10px 10px;
+  margin-left: 25px;
+  margin-top: 10px;
+  color: black;
+ 
+
+}
+.categories-title h1 
+{
+    font-size: 20px;
+    color: #ff5e78;
+}
+.categories-title h2 
+{
+    font-size: 35px;
+    font-weight:300vh;
+}
+.categories-all
+{
+    display: flex;
+    height: 300px;
+    padding: 10px 10px;
+}
+.categories-box
+{
+    height: 100%;
+    width: 20%;
+    margin: 5px 0;
+    margin-left: 15px;
+    background: #007BFF;
+ 
+    border-radius: 40px;  
+}
+.categories-name1
+{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+}
+.categories-image img
+{
+    height: 75%;
+    width: 100%;
+    border-radius: 40px; 
+    margin-top: 27px;
+}
+.subfooter-conatainer
+{
+    height: 500px;
+    width: 97%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.subfooter-conatainer .subfooter-box1
+{
+    height: 470px;
+    width: 33%;
+    background: lavender;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
+    position: relative;
+    left: 100px;
+    top: 20px;
+    border-radius: 15px;
+}
+.subfooter-conatainer .subfooter-box2
+{
+    height: 400px;
+    width: 33%;
+    background-image: url("../images/top-game-02.jpeg");
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+.subfooter-conatainer .subfooter-box3
+{
+    height: 400px;
+    width: 33%;
+    background: lavender;
+    justify-content: center;
+    text-align: center;
+    margin-left: 5px;
+    border-radius: 15px;
+    position: relative;
+    right: 100px;
+    top: 90px;
+}
+.subfooter-h1
+{
+    color:#FF5E66;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.subfooter-min 
+{
+    width: 200px;
+    text-align: start;
+    margin-left: 100px;
+    margin-top: 5px;
+    font-size: 30px;
+    color: black;
+    font-weight: 300px;
+    font-weight: bold;
+
+}
+.subfooter-min1 
+{
+    width: 200px;
+    text-align: start;
+    margin-left: 100px;
+    margin-top: 5px;
+    color: gray;
+    font-size: 25px;
+    width: 300px;
+
+}
+.subfooter-box1 button 
+{
+    background: #FF5E66;
+    color: white;
+    padding: 10px 10px;
+    width: 150px;
+    height: 70px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+}
+.subfooter-conatainer .subfooter-box3 .subfooter-min
+{
+  margin-top: 20px;
+}
+.subfooter-conatainer .subfooter-box3 .subfooter-min1
+{
+    display: flex;
+    background: white;
+    height: 55px;
+    width: 290px;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+
+}
+.subfooter-conatainer .subfooter-box3 .subfooter-min1 input 
+{
+    height: 30px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    width: 190px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+.subfooter-conatainer .subfooter-box3 .subfooter-min1 button
+{
+    height: 55px;
+    width: 90%;
+    border-radius: 20px;
+    color: white;
+    background: #FF5E66;
+    border: none;
+    margin-left: 3px;
+    
+    
+}
+footer
+{background-image: url("../images/footer-bg.jpeg");
+    color: white;
+    border-top-left-radius: 180px;
+    border-top-right-radius: 180px;
+    height: 200px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+
+}
+footer h1 
+{
+    font-size: 20px;
+    margin-top: 20px;
+    padding-top: 40px;
 }
